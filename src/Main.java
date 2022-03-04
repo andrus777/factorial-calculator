@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.print("Введите целое число от 1 до 12 : ");
+        System.out.print("Введите целое число от 1 до 12 для вычисления факториала: ");
         int value = new Scanner(System.in).nextInt();
         int factorial = 1;
 
@@ -12,5 +12,6 @@ public class Main {
             factorial = factorial * i;
         }
         System.out.print(" = " + factorial);
+        System.out.println("Расчет завершен.");
     }
 }
