@@ -3,6 +3,7 @@ public class Division {
     int b;
 
     public double divResult(){
+        int d=0;
         return a/b;
     }
 }
