@@ -3,7 +3,9 @@ public class Division {
     int b;
 
     public double divResult(){
-        int d=0;
-        return a/b; //test b for zero
+        if(this.b == 0) {
+            return -1;
+        }
+        return a/b;
     }
 }
