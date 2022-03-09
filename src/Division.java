@@ -4,6 +4,6 @@ public class Division {
 
     public double divResult(){
         int d=0;
-        return a/b;
+        return a/b; //test b for zero
     }
 }
